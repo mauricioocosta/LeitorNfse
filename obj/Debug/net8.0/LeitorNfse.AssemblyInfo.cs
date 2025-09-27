@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeitorNfse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8608d09e64372ec6817c1c92f99302b30e555deb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeitorNfse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeitorNfse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
