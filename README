@@ -1,21 +1,45 @@
 # LeitorNfse
 
-Projeto em Java para leitura e processamento de NFSe (Notas Fiscais de Serviços Eletrônicas).
+Projeto em Java para leitura, processamento e análise de NFSe (Notas Fiscais de Serviços Eletrônicas).  
+Permite extrair informações importantes das NFSe e gerar relatórios de forma automatizada.
+
+---
 
 ## Funcionalidades
 
 - Ler arquivos XML de NFSe.
-- Extrair informações como número da nota, prestador, tomador e valores.
+- Extrair informações como:
+  - Número da NFSe
+  - Prestador de serviço
+  - Tomador de serviço
+  - Valores de serviço e impostos
+- Adicionar, listar, buscar e remover NFSe processadas (se houver integração com banco de dados).
 - Gerar relatórios resumidos das NFSe processadas.
 
-## Tecnologias
+---
+
+## Tecnologias Utilizadas
 
 - Java 17+
-- Spring Boot (se usar)
-- JDBC/SQL ou outra biblioteca para persistência
-- Maven ou Gradle (dependendo do projeto)
+- Spring Boot (para API REST, caso implementado)
+- JDBC/SQL ou outra biblioteca para persistência de dados
+- Maven (ou Gradle) para gerenciamento de dependências
+- IDE recomendada: Eclipse, IntelliJ IDEA ou VS Code
 
-## Como rodar
+---
+
+## Pré-requisitos
+
+Antes de rodar o projeto, certifique-se de ter instalado:
+
+- Java 17+
+- Maven (ou Gradle, dependendo do projeto)
+- Banco de dados (se usado)
+- IDE ou terminal com acesso ao Git
+
+---
+
+## Como Rodar
 
 1. Clone o repositório:
 
